@@ -19,7 +19,7 @@ campaignId = "23843110047550212"
 budget = 100
 bidAmount = 0
 
-con = Database.getConnection('localhost', 'sa', 'P@ssw0rd', 'GH.Warehouse')#
+con = Database.getConnection('localhostnew', 'sa', 'P@ssw0rd', 'GH.Warehouse')#
 offerCodeList = Database.getOfferCodes(con, 'jb4', 'Retention')#
 
 today = datetime.date.today()
