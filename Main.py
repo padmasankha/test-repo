@@ -14,13 +14,6 @@ app_id = '558905831213477'
 FacebookAdsApi.init(access_token=access_token)
 
 #Create campaign
-campaignId = "23843110047550212"
-
-budget = 100
-bidAmount = 0
-
-con = Database.getConnection('localhostnew', 'sa', 'P@ssw0rd', 'GH.Warehouse')#
-offerCodeList = Database.getOfferCodes(con, 'jb4', 'Retention')#
 
 today = datetime.date.today()
 offercodeCounter = 0
